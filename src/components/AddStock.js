@@ -9,3 +9,8 @@ const AddStock = () => {
 };
 
 export default AddStock
+
+/*
+Changes made here
+
+*/
