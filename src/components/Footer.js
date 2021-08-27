@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<nav className="navbar navbar-light bg-dark mt-4">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
+				<a className="navbar-brand" href="http://localhost:3000/">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/en/0/0a/Logo_of_the_SCP_Foundation.png"
 						alt=""

@@ -1,6 +1,11 @@
 import React from 'react';
 
 const AddStock = () => {
+	const addStock = (e) => {
+		e.preventDefault();
+		console.log(e);
+	};
+
 	return (
 		<div className="container d-flex justify-content-center">
 			<form className="border mt-5 shadow bg-white rounded w-75">
@@ -41,7 +46,11 @@ const AddStock = () => {
 						/>
 					</div>
 					<div className="form-group d-flex justify-content-center pb-2">
-						<button className="btn btn-primary w-100 mx-4" type="button">
+						<button
+							onSubmit={addStock}
+							className="btn btn-primary w-100 mx-4"
+							type="button"
+						>
 							Add Stock
 						</button>
 					</div>

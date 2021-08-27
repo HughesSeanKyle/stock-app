@@ -4,7 +4,7 @@ const Nav = () => {
 	return (
 		<nav className="navbar navbar-light bg-light">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
+				<a className="navbar-brand" href="http://localhost:3000/">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/en/0/0a/Logo_of_the_SCP_Foundation.png"
 						alt=""
@@ -15,13 +15,13 @@ const Nav = () => {
 					Stock Flow
 				</a>
 				<nav className="nav">
-					<a className="nav-link active" href="#">
+					<a className="nav-link active" href="http://localhost:3000/">
 						Home
 					</a>
-					<a className="nav-link" href="#">
+					<a className="nav-link" href="http://localhost:3000/">
 						Analytics
 					</a>
-					<a className="nav-link" href="#">
+					<a className="nav-link" href="http://localhost:3000/">
 						Logout
 					</a>
 				</nav>
